@@ -8,6 +8,6 @@
  **Redux State Management** – Centralized state using Redux Toolkit
  **Code Splitting** – Optimized performance using `React.lazy` and `Suspense`
 
-#steps
-1)code should be visible from main branch
-2)switch branch into main 
+# steps
+ **1** code should be visible from main branch
+ **2** switch branch into main 
