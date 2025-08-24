@@ -9,5 +9,5 @@
  **Code Splitting** – Optimized performance using `React.lazy` and `Suspense`
 
 # steps
- **1** code should be visible from main branch
- **2** switch branch into main 
+ **Step-1** code should be visible from main branch
+ **Step-2** switch branch into main 
