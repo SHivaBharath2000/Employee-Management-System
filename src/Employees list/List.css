@@ -1,0 +1,114 @@
+.List-container{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.List-header{
+     background-color: #f0e8f5;
+    height: fit-content;
+    margin:30px;
+    padding: 0;
+
+}
+.List-header>h3{
+    color: #a50bcc;
+}
+.whole-container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+.List-edit{
+  background-color: yellow;
+  color: black;
+  margin: 10px;
+   border: none;
+    width: 70px;
+    height: 50px;
+    border-radius: 28px;
+    position: relative;
+    left: 40px;
+
+}
+.List-edit:hover{
+ cursor: pointer;
+}
+
+.List-delete{
+  background-color: red;
+  color: white;
+      border: none;
+    width: 55px;
+    height: 31px;
+    border-radius: 28px;
+}
+
+.List-delete:hover{
+  cursor: pointer;
+}
+
+.List-add{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.List-add-employee{
+  background-color: #6f42c1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px!important;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.search-bar-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  width: 70%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.search-input:focus {
+  outline: none;
+  border-color: #6f42c1;
+  box-shadow: 0 0 0 0.2rem rgba(156, 31, 214, 0.25);
+}
+
+.filter-search{
+  flex-direction: row;
+  width: 50%;
+}
+.filter-search select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  
+}
+
+.filter-search select:focus {
+  border-color:#6f42c1;
+   box-shadow: 0 0 0 0.2rem rgba(156, 31, 214, 0.25);
+  outline: none;
+}
